@@ -1,5 +1,6 @@
 # GitHub Pages (Jekyll) の設定です
 # site.title (下記) が page.title (#) と一致しないとトップページのタイトルが重複するので設定しています
 
+lang: ja
 title: TakiWiki3
 description: 滝本研究室の全てが書かれた百科事典です。本体はGitHubにあります。
