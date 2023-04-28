@@ -1,7 +1,21 @@
 # 設備について
 
-[滝本研究室](takimoto-lab.md)
+## 研究室
 
-[計算機科学研究室](computer-science-lab.md)
+### [滝本研究室](takimoto-lab.md)
 
-[融合メディア研究室](fusion-media-lab.md)
+**6**号館 **4**階
+
+滝本先生のオフィス
+
+### [計算機科学研究室](computer-science-lab.md)
+
+**6**号館 **4**階
+
+多賀先生のオフィス
+
+### [融合メディア研究室](fusion-media-lab.md)
+
+**6**号館 **4**階
+
+所属学生の居場所
