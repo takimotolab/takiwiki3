@@ -2,3 +2,11 @@
 <!-- MathJaxを動かすために必要 -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!-- ダイアグラムなどを描画するMermaidの初期化 -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: false });
+  await mermaid.run({
+    querySelector: 'pre > code.language-mermaid', // GitHub Flavored Markdownに合わせる
+  });
+</script>
