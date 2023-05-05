@@ -35,6 +35,10 @@ YAMLで書かれたJekyllの設定ファイルです。
   トップページでは重複するので表示されてほしくないですが、サイトタイトルはデフォルトでリポジトリ名なので大文字小文字が合いません。
   そのため、別途ここで設定しています。
 
+- markdown
+
+  [Setting a Markdown processor for your GitHub Pages site using Jekyll - GitHub Docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/setting-a-markdown-processor-for-your-github-pages-site-using-jekyll)を見ると`kramdown`と`GFM (GitHub Flavored Markdown)`が選べるそうですが、GitHub本家の表示に合わせたいため`GFM`にしています。
+
 ### _includes/head-custom.html
 
 デフォルトで使われるJekyll themeの[Primer](https://github.com/pages-themes/primer)では、このファイルの内容が`<head>`タグに追記されます。
