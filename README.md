@@ -1,6 +1,8 @@
 # TakiWiki3
 
-滝本研究室の全てが書かれています。
+東京理科大学 創域理工学部 情報計算科学科 滝本研究室
+
+GitHub: [takimotolab/takiwiki3](https://github.com/takimotolab/takiwiki3)
 
 - [生活について](activities/README.md)
 
