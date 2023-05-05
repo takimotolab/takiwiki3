@@ -1,15 +1,5 @@
 ## 利用案内
 
-**TakiWiki3** は [GitHub](https://github.com/) と [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) を利用して運用されています。
-
-```mermaid
-flowchart LR
-A([研究室メンバー]) --> |加筆修正| B[(GitHub リポジトリ)]
-B --> |デプロイ| C((GitHub Pages))
-B --> |直接閲覧| D([みなさん])
-C --> |Webページ版| D
-```
-
 ### 閲覧方法
 
 [GitHub リポジトリ](https://github.com/takimotolab/takiwiki3)で直接読む方法と、[GitHub Pages](https://takimotolab.github.io/takiwiki3/) で読む方法があります。
@@ -53,4 +43,6 @@ Web上のエディタを使う方法と、ローカル(自分の手元の端末)
 
 ### 技術情報
 
-**TODO**: `_includes/**` と `_config.yml` について書く
+- [技術情報](tech-info.md)
+
+読んでもわからなかった人は、先頭にアンダースコア `_` が付いた名前のファイル・ディレクトリに触れなければ大丈夫です。
