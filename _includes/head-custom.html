@@ -12,4 +12,5 @@
 </script>
 <!-- Faviconの設定 -->
 <!-- SVG形式なので一部プラットフォームでは表示されないかも https://caniuse.com/link-icon-svg -->
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<!-- JekyllのLiquidというテンプレートエンジンのFiltersという機能を使って画像のパスを解決しています https://jekyllrb.com/docs/liquid/filters/ -->
+<link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
